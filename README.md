@@ -33,3 +33,13 @@ pip install supervisor
 supervisord -c /var/config/supervisord.conf # .conf 文件在生成镜像的时候已复制到 /var/config 目录下
 ```
 
+# 打开
+
+```
+# 本地打开
+localhost:8888
+# 远程打开
+本机ip:8888
+```
+
+
