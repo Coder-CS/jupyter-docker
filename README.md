@@ -42,4 +42,6 @@ localhost:8888
 本机ip:8888
 ```
 
+![截图](imgs/jupyter.png)
+
 
