@@ -1,3 +1,10 @@
+# 下载
+
+```shell
+git clone https://github.com/oOxianOo/jupyter-docker.git
+```
+
+
 # 创建 docker 容器
 
 ```shell
