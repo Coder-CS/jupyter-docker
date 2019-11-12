@@ -30,7 +30,7 @@ jupyter-lab
 
 # 用 supervisor 启动
 pip install supervisor
-supervisord -c /var/config/supervisord.conf # .conf 文件在生成镜像的时候已复制到 /var/config 目录下
+supervisord  # .conf 文件在生成镜像的时候已复制到 /etc/supervisord.conf 目录下
 ```
 
 # 打开

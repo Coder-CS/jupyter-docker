@@ -17,7 +17,7 @@ RUN jupyter-lab --generate-config \
 	&& echo 'c.NotebookApp.open_browser = False' >> ~/.jupyter/jupyter_notebook_config.py \
 	&& echo 'c.NotebookApp.allow_root = True' >> ~/.jupyter/jupyter_notebook_config.py
 
-COPY ./supervisord.conf /var/config/supervisord.conf
+COPY ./supervisord.conf /etc/supervisord.conf
 
 CMD ['jupyter-lab]
  
