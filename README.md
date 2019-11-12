@@ -12,6 +12,8 @@ git clone https://github.com/oOxianOo/jupyter-docker.git
 docker build -t jupyter . 
 # 启动 jupyter 容器，访问端口为 8888 
 docker run -it --name jupyter -p 8888:8888 -d jupyter bash 
+# 进入容器
+docker exec -it jupyter bash
 ```
 
 
