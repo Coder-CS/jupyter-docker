@@ -8,6 +8,7 @@ git clone https://github.com/oOxianOo/jupyter-docker.git
 # 创建 docker 容器
 
 ```shell
+cd jupyter-docker
 # 生成 jupyter 的 docker 镜像 
 docker build -t jupyter . 
 # 启动 jupyter 容器，访问端口为 8888 
